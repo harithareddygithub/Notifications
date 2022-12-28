@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #0f172a;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+}
+
+.notification-container {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  padding-top: 12px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+
+.primary-bg-color {
+  background-color: #0b69ff;
+}
+.success-bg-color {
+  background-color: #2dca73;
+}
+.warning-bg-color {
+  background-color: #ffb800;
+}
+.danger-bg-color {
+  background-color: #ff0b37;
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+}
+
+.message {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+}
